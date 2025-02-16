@@ -1,0 +1,18 @@
+year = now.strftime("%Y")
+month = now.strftime("%m")
+
+month = int(month)
+
+if (byear < year):
+    if(bmonth < month):
+        x = year - byear
+
+        print(f"ismin {z} ve yasin {x} ve ayliksin {y}")
+    else:
+        x = (year - byear) - 1
+        y = (12 - bmonth) + month
+        z = bname
+       
+    print("yanlis bilgi girdiniz")
+    
+    
