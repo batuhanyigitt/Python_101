@@ -1,0 +1,27 @@
+
+
+def tas_kagit_makas():
+    choices = ["tas", "kagit", "makas"]
+    
+    if user_choice not in choices:
+
+    
+    computer_choice = random.choice(choices)
+    print(f"computer choice: {computer_choice}")
+    
+    if user_choice == computer_choice:
+        print("Berabere")
+        if computer_choice == "kagit":
+            print("kaybettiniz ")
+            
+    elif user_choice == "kagit":
+        if computer_choice == "makas":
+            print("kaybettiniz")
+        else:
+            print("kazandiniz")   
+            
+            print("kaybetttiniz")
+        else: 
+            print("kazandiniz")
+
+print("Tas Kagit Makas Oyununa Hosgeldiniz ")
